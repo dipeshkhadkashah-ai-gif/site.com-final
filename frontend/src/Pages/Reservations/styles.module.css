@@ -1,0 +1,12 @@
+.image{
+    border-radius: 50% ;
+    width:200px;
+    height: 160px;
+    background-image: url(A:\Agile\site.com\frontend\src\images\7.jpg);
+}
+.book{
+    display: none !important;
+}
+.book_deco{
+    color: white !important;
+}

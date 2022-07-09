@@ -1,0 +1,148 @@
+.login_container {
+	width: 100%;
+	min-height: 100vh;
+	background-image: url(A:\Agile\site.com\frontend\src\images\H8.jpg);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.login_form_container {
+	width: 1000px;
+	height: 500px;
+	width: 900px;
+	height: 500px;
+	display: flex;
+	border-radius: 20px;
+	box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+	margin: 20px;
+}
+
+.left {
+	flex: 2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color:rgb(31, 29, 29);
+	color: white;
+	border-right: 1px solid #585454;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.form_container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form_container h1 {
+	font-size: 50px;
+	margin-top: 0;
+}
+
+.input {
+	outline: none;
+	border: none;
+	display:block;
+	width: 300px;
+	color:black;
+	padding: 15px;
+	border-radius: 24px;
+	background: color;
+	border: 2px solid #3498db;
+	margin: 5px 0;
+	font-size: 20px;
+	transition: 0.25s;
+}
+
+.input:focus{width: 450px;
+border-color:#2ecc71;}
+
+
+.error_msg {
+	width: 370px;
+	padding: 15px;
+	margin: 5px 0;
+	font-size: 14px;
+	background-color: #f34646;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.right {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(31, 29, 29);
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.right h1 {
+	margin-top: 0;
+	color: white;
+	font-size: 40px;
+	align-self: center;
+}
+
+
+.green_btn {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: none;
+	border-radius: 20px;
+	width: 180px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.white_btn {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background: rgb(33, 151, 33) !important;
+	color: white;
+	border-radius: 20px;
+	border:1px solid #4d4b50;
+	width: 180px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+/* .green_btn {
+	background-color: #3bb19b;
+	color: white;
+	margin: 10px;
+} */
+.green_btn{
+    color:rgb(255, 253, 253);
+    background: rgb(33, 151, 33);
+    border: 0;
+    display: block;
+    margin: 20PX auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    border-radius: 24px;
+    padding: 14px 40px;
+    cursor: pointer;
+    outline: none;
+	transition: 0.8s;
+}
+
+.green_btn:hover{
+    background: #2ecc71;
+
+}
+
+.white_btn:hover{
+    background: #2ecc71;
+
+}

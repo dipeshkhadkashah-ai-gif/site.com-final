@@ -1,0 +1,127 @@
+.signup_container {
+	width: 100%;
+	min-height: 100vh;
+	background-image: url(A:\Agile\site.com\frontend\src\images\2.jpg) ;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.signup_form_container {
+	width: 900px;
+	height: 500px;
+	display: flex;
+	border-radius: 10px;
+	box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+		0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+}
+
+.left {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(31, 29, 29);
+	border-right: 1px solid #585454;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.left h1 {
+	margin-top: 0;
+	color: white;
+	font-size: 35px;
+	align-self: center;
+}
+
+.right {
+	flex: 2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	background-color: rgb(31, 29, 29);
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.form_container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form_container h1 {
+	font-size: 40px;
+	margin-top: 0;
+}
+
+.input {
+	outline: none;
+	border: none;
+	width: 470px;
+	padding: 15px;
+	border-radius: 24px;
+	margin: 5px 0;
+	border: 2px solid #3498db;
+	font-size: 20px;
+	transition: 0.25s;
+	background:color;
+}
+
+.input:focus{width: 400px;
+	border-color:#2ecc71;}
+
+.error_msg {
+	width: 370px;
+	padding: 15px;
+	margin: 5px 0;
+	font-size: 14px;
+	background-color: #f34646;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+}
+
+
+.green_btn {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background: #2ecc71;
+	border-radius: 20px;
+	width: 180px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	transition: 0.25ms;
+}
+
+.white_btn{border: none;
+outline: none;
+padding: 12px 0;
+background-color: #2ecc71;
+border-radius: 20px;
+width: 180px;
+font-weight: bold;
+font-size: 14px;
+cursor: pointer;
+}
+
+
+.green_btn ,.white_btn{
+	background:none;
+	color: white;
+	margin: 10px;
+	border:2px solid#2ecc71;
+}
+.white_btn:hover{
+	background-color: #2ecc71;
+}
+.green_btn:hover{
+	background-color: #2ecc71;
+	width: 200px;
+
+}

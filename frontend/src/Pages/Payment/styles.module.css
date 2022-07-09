@@ -1,0 +1,9 @@
+.submit{
+    background-color: rgb(35, 79, 221);
+    background-image: url(A:\Agile\site.com\frontend\src\images\3.jpg);
+    color: white;
+    border:none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+
+}
